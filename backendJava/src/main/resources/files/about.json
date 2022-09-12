@@ -1,0 +1,49 @@
+{
+    "client ": {
+        "host": "127.0.0.1"
+    },
+    "server": {
+        "current_time ": 8532610996 ,
+        "services": [{
+        	"name": "OpenWeatherMap",
+        	"widgets": [{
+           		"name": "weather",
+            	"description ": "Search by city and display weather information",
+            	"params": [{
+                	"name": "cityName",
+                	"type": "string"
+                }]
+			}]
+        }, {
+        	"name": "yahooFinance",
+        	"widgets ": [{
+        		"name": "finance",
+        		"description ": "Search by stock and display some information about it like its history",
+        		"params ": [{
+        			"name": "symbol",
+       				"type": "string"
+        		}]
+        	}]
+        }, {
+        	"name": "Spotify",
+        	"widgets ": [{
+        		"name": "spotify",
+        		"description ": "Deplay musics from a reaseach album",
+        		"params ": [{
+        			"name": "album",
+        			"type": "string"
+        		}]
+        	}]
+        }, {
+        	"name": "dailymotion",
+        	"widgets ": [{
+            	"name": "dailymotion",
+            	"description ": " watch every dailymotion video that you want",
+            	"params ": [{
+                	"name": "search",
+                	"type": "string"
+            	}]
+         	}]
+     	}]
+    }
+}

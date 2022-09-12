@@ -1,0 +1,29 @@
+
+.codecodecode p {
+    width: 0;
+    font-family: "Courier";
+    font-size: 20px;
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type__ 4s steps(60, end) forwards;
+}
+.codecodecode p a {
+    text-decoration: none;
+}
+.codecodecode span {
+    animation: blink___ 1s infinite;
+}
+@keyframes type__ {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+@keyframes blink___ {
+    to {
+        opacity: .0;
+    }
+}
